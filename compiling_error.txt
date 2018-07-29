@@ -1,0 +1,14 @@
+In file included from C:\GitHub\Tiger_Compiler\main.c:1:0:
+C:\GitHub\Tiger_Compiler\prog1.h:1:1: error: unknown type name 'A_stm'
+ A_stm prog(void);
+ ^~~~~
+C:\GitHub\Tiger_Compiler\main.c: In function 'main':
+C:\GitHub\Tiger_Compiler\main.c:5:3: error: unknown type name 'A_stm'
+   A_stm p = prog();
+   ^~~~~
+C:\GitHub\Tiger_Compiler\main.c:7:11: warning: implicit declaration of function 'maxargs' [-Wimplicit-function-declaration]
+   int n = maxargs(p);
+           ^~~~~~~
+C:\GitHub\Tiger_Compiler\main.c:8:3: warning: implicit declaration of function 'interp' [-Wimplicit-function-declaration]
+   interp(p);
+   ^~~~~~
