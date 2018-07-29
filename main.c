@@ -4,6 +4,9 @@
 int main(){
   A_stm p = prog();
 
+  /***********************************************
+   *test maxargs
+   **********************************************/
   int n = maxargs(p);
   interp(p);
   printf("\nmaxargs of print:%d\n",n);
